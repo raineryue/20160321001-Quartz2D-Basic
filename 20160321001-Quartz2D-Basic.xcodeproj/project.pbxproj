@@ -15,6 +15,7 @@
 		D5B566031C9FC8910032C821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B566011C9FC8910032C821 /* LaunchScreen.storyboard */; };
 		D5B5660E1C9FC8910032C821 /* _0160321001_Quartz2D_BasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5660D1C9FC8910032C821 /* _0160321001_Quartz2D_BasicTests.m */; };
 		D5B566191C9FC8910032C821 /* _0160321001_Quartz2D_BasicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B566181C9FC8910032C821 /* _0160321001_Quartz2D_BasicUITests.m */; };
+		D5B566281C9FC9060032C821 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B566271C9FC9060032C821 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D5B566141C9FC8910032C821 /* 20160321001-Quartz2D-BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160321001-Quartz2D-BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B566181C9FC8910032C821 /* _0160321001_Quartz2D_BasicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160321001_Quartz2D_BasicUITests.m; sourceTree = "<group>"; };
 		D5B5661A1C9FC8910032C821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B566261C9FC9060032C821 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		D5B566271C9FC9060032C821 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				D5B565F91C9FC8910032C821 /* ViewController.h */,
 				D5B565FA1C9FC8910032C821 /* ViewController.m */,
 				D5B565FC1C9FC8910032C821 /* Main.storyboard */,
+				D5B566261C9FC9060032C821 /* DrawView.h */,
+				D5B566271C9FC9060032C821 /* DrawView.m */,
 				D5B565FF1C9FC8910032C821 /* Assets.xcassets */,
 				D5B566011C9FC8910032C821 /* LaunchScreen.storyboard */,
 				D5B566041C9FC8910032C821 /* Info.plist */,
@@ -272,6 +277,7 @@
 			files = (
 				D5B565FB1C9FC8910032C821 /* ViewController.m in Sources */,
 				D5B565F81C9FC8910032C821 /* AppDelegate.m in Sources */,
+				D5B566281C9FC9060032C821 /* DrawView.m in Sources */,
 				D5B565F51C9FC8910032C821 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
